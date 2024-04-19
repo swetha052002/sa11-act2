@@ -1,5 +1,5 @@
 def valid_date?(date)
-  pattern = nil
+  pattern = /^\d{4}-[0-1][0-9]-[0-3][0-9]$/
   date.match?(pattern)
 end
 

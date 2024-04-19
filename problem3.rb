@@ -1,5 +1,5 @@
 def find_numbers(text)
-  pattern = nil
+  pattern = /\d*\.\d+|\d/
   text.scan(pattern)
 end
 
